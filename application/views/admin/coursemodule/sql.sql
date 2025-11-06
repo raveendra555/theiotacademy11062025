@@ -1,0 +1,1 @@
+SELECT `module_id`,`module_name`,`module_fee`,`duration`,`description` FROM `cmodules` WHERE cm_id IN(Select cm_id from course_modules where course_id = 15)

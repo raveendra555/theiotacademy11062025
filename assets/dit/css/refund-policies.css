@@ -1,0 +1,31 @@
+:root {
+    --font: "Inter", sans-serif;
+}
+
+.heading{
+    text-align: left;
+}
+
+.banner{
+    background: var(--bg-blue);
+    width: 100%;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid #ffffff36;
+}
+.banner .heading{
+    margin-bottom: 0;
+    color: var(--text-white);
+    font-size: 45px;
+    text-align: center;
+}
+
+.center-part{
+    padding: 60px 0;
+}
+.center-part .heading{
+    font-size: 30px;
+}
